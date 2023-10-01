@@ -1,0 +1,31 @@
+{
+  "name": "kraftbase-assignment",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/react": "^2.8.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@types/leaflet": "^1.9.6",
+    "framer-motion": "^10.16.4",
+    "leaflet": "^1.9.4",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "@types/react": "^18.2.23",
+    "@types/react-dom": "latest",
+    "typescript": "^5.2.2"
+  }
+}
