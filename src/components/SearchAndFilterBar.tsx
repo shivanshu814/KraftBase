@@ -73,12 +73,15 @@ const SearchAndFilterBar: React.FC<Props> = ({ onToggle }) => {
 				<Select
 					placeholder='Type'
 					color='white'
-					_placeholder={{ color: 'white' }}
 					value={selectedType || ''}
 					onChange={handleTypeChange}
 					mb={['2', '0']}>
-					<option value='camp'>Camp</option>
-					<option value='driver'>Driver</option>
+					<option value='camp' style={{ color: 'black' }}>
+						Camp
+					</option>
+					<option value='driver' style={{ color: 'black' }}>
+						Driver
+					</option>
 				</Select>
 				<Select
 					placeholder='Proximity'
@@ -87,8 +90,12 @@ const SearchAndFilterBar: React.FC<Props> = ({ onToggle }) => {
 					value={selectedProximity || ''}
 					onChange={handleProximityChange}
 					minWidth='130px'>
-					<option value='near'>Near</option>
-					<option value='far'>Far</option>
+					<option value='near' style={{ color: 'black' }}>
+						Near
+					</option>
+					<option value='far' style={{ color: 'black' }}>
+						Far
+					</option>
 				</Select>
 				<Select
 					placeholder='Amenities'
@@ -97,8 +104,12 @@ const SearchAndFilterBar: React.FC<Props> = ({ onToggle }) => {
 					value={selectedAmenity || ''}
 					onChange={handleAmenityChange}
 					minWidth='130px'>
-					<option value='wifi'>Wi-Fi</option>
-					<option value='parking'>Parking</option>
+					<option value='wifi' style={{ color: 'black' }}>
+						Wi-Fi
+					</option>
+					<option value='parking' style={{ color: 'black' }}>
+						Parking
+					</option>
 				</Select>
 			</Stack>
 			<Spacer />
