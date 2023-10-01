@@ -28,7 +28,7 @@ const CampDetailsSection = ({ campInfo }) => {
 
 	return (
 		<Box
-			bg='black'
+			bg='gray.100'
 			p={4}
 			borderRadius='md'
 			boxShadow='md'

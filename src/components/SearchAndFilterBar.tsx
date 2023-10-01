@@ -72,6 +72,8 @@ const SearchAndFilterBar: React.FC<Props> = ({ onToggle }) => {
 				mb={[2, 0]}>
 				<Select
 					placeholder='Type'
+					color='white'
+					_placeholder={{ color: 'white' }}
 					value={selectedType || ''}
 					onChange={handleTypeChange}
 					mb={['2', '0']}>
@@ -80,6 +82,8 @@ const SearchAndFilterBar: React.FC<Props> = ({ onToggle }) => {
 				</Select>
 				<Select
 					placeholder='Proximity'
+					color='white'
+					_placeholder={{ color: 'white' }}
 					value={selectedProximity || ''}
 					onChange={handleProximityChange}
 					minWidth='130px'>
@@ -88,6 +92,8 @@ const SearchAndFilterBar: React.FC<Props> = ({ onToggle }) => {
 				</Select>
 				<Select
 					placeholder='Amenities'
+					color='white'
+					_placeholder={{ color: 'white' }}
 					value={selectedAmenity || ''}
 					onChange={handleAmenityChange}
 					minWidth='130px'>
